@@ -1,0 +1,89 @@
+.table-box {
+  /* background-color:#e4189c; */
+  width: 20%;
+  padding: 5px solid;
+}
+
+tr {
+  margin: 1px;
+}
+.CC {
+  background-color: #eddfdf;
+  bottom: 200px;
+  margin: 3px;
+  min-height: 20px;
+  min-width: 15px;
+  column-width: auto;
+}
+.card {
+  background-color: #eddfdf;
+  top: 1px;
+  margin: 3px;
+  min-height: 250px;
+  min-width: 1500px;
+  column-width: auto;
+}
+
+.hero {
+  background: linear-gradient(
+    to right,
+    #d70936,
+    #e5d9c0,
+    #1a41be
+  ); 
+  flex-wrap: wrap
+}
+
+.form {
+  background-color: #0960da;
+  margin: 3px;
+  min-height: 300px;
+  bottom: -1000px;
+}
+.input{
+  min-height: 30px;
+  max-width: 300px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#submit {
+  bottom: 1px;
+  width: 15.8%;
+  margin-bottom: 30px;
+  background: linear-gradient(
+    #178fcf,
+    #d2cbcd
+  );
+}
+/* this refers to line 50 in index HTML */
+.version-one {
+  font-size: 1em;  
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+
+
+.footer {
+  width: auto;
+  background-color: rgb(223, 82, 82);
+  color: white;
+  text-align: center; 
+}
+
+@media only screen and (max-width: 599px) {
+
+  .column {
+    margin: 2px;
+    padding: 0 20px 0 20px;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+}
